@@ -91,3 +91,8 @@ php artisan migrate
 ```
 php artisan db:seed --class=DatabaseSeeder
 ```
+
+5 Rodar a aplicação
+```
+php artisan serve
+```
