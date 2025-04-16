@@ -6,7 +6,7 @@ use App\Http\Controllers\SituacaoController;
 use App\Http\Controllers\ChamadoController;
 
 Route::get('/', function () {
-    return redirect('/admin'); // Redireciona para a rota /admin
+    return redirect('/admin/dashboard'); // Redireciona para a rota /admin
 });
 
 Route::group(['prefix' => 'admin'], function () {
